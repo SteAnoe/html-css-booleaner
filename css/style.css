@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-main, footer{
+main, footer, .img1, .img2{
     margin: 10px;
 }
 
@@ -34,13 +34,20 @@ li{
     background-image: url(../img/monitor.jpg);
     background-repeat: no-repeat;
     height: 180px;
-      
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 .img2{
     background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
     height: 180px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 h1{
@@ -58,4 +65,32 @@ h1{
 
 .padding-bot{
     padding-bottom: 40px;
+}
+
+table{
+    width: 1880px;
+    border-spacing: 0;
+}
+
+thead{
+    background-color: skyblue;
+    color: white;
+    text-align: left;
+}
+
+.bg-color{
+    background-color: aquamarine;
+}
+
+.terza-colonna{
+    width: 50%;
+}
+
+.padding-cell{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    color: lightgrey;
 }
