@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+main, footer{
+    margin: 10px;
+}
 
 header{
     background-image: url(../img/pattern.png);
@@ -29,9 +31,31 @@ li{
 }
 
 .img1{
-    background-image: url(../img/monitor.jpg)
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 180px;
+      
 }
 
 .img2{
     background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    height: 180px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.tim{
+    height: 600px;
+}
+
+.tim1{
+    height: 600px;
+    width: 900px;
+}
+
+.padding-bot{
+    padding-bottom: 40px;
 }
